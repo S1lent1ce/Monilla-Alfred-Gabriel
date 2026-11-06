@@ -3,8 +3,6 @@ using namespace std;
 int main() {
      int choice;
 
-
-
     cout << "1. Circle "<<'\n';
     cout << "2. Triangle" << '\n';
     cout << "3. Square" << '\n';
