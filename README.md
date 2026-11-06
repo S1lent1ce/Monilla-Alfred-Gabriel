@@ -32,9 +32,9 @@ int main() {
 
       }
       case 2: { double b,h,a;
-            cout << "Enter the Base of the Triangle: ";
+            cout << "Enter the Base of the Triangle: " << '\n';
             cin >> b;
-            cout << "Enter the Heigh OF the Triangle: ";
+            cout << "Enter the Heigh OF the Triangle: " << '\n';
             cin >> h;
 
               a = 0.5 * b * h;
@@ -47,7 +47,7 @@ int main() {
 
 
       case 3: { double s;
-            cout << "Enter side length: ";
+            cout << "Enter side length: " << '\n';
             cin >> s;
 
             double a,p,d;
@@ -64,6 +64,9 @@ int main() {
             cout << "diagonal: " << d << '\n';
                   break;
       }
+
+      default:
+        cout << "Wrong Input" << '\n';
       }
 
      return 0;
